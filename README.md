@@ -90,7 +90,7 @@ Run the unit tests included in the test package : mvn test
 
 ## Contributors
 
-### Eyomi - oumaima.bakri08@gmail.com
+Eyomi - oumaima.bakri08@gmail.com
         
         
 ## Testing       
