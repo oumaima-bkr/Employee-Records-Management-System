@@ -1,3 +1,4 @@
+
 # Employee Records System
 
 
@@ -64,6 +65,18 @@ The Employee Records System is a comprehensive application for managing employee
    Run the MainFrame class in the com.employee.records.employee_records_system.UI package.
 
 ## API Endpoints
+| Category       | Method | Endpoint          | Description                   |
+|----------------|--------|-------------------|-------------------------------|
+| **User Login** | POST   | `/users/login`    | Authenticate user credentials |
+| **Roles**      | GET    | `/Roles`          | Fetch all roles               |
+|                | POST   | `/Roles`          | Add a new role                |
+|                | PUT    | `/Roles/{id}`     | Update an existing role       |
+|                | DELETE | `/Roles/{id}`     | Delete a role by ID           |
+| **Employees**  | GET    | `/employees`      | Fetch all employees           |
+|                | POST   | `/employees`      | Add a new employee            |
+|                | PUT    | `/employees/{id}` | Update an employee            |
+|                | DELETE | `/employees/{id}` | Delete an employee by ID      |
+| **Audit Logs** | GET    | `/audits`         | Fetch all audit logs          |
 
 
 ## User Roles and Permissions
@@ -90,7 +103,7 @@ Run the unit tests included in the test package : mvn test
 
 ## Contributors
 
-Eyomi - oumaima.bakri08@gmail.com
+ Eyomi - oumaima.bakri08@gmail.com
         
         
 ## Testing       
